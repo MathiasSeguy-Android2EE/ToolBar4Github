@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbarcompat_mse="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_item_actionview"
+        actionbarcompat_mse:actionLayout="@layout/actionview_view"
+        actionbarcompat_mse:showAsAction="always|collapseActionView"
+        android:icon="@drawable/ic_action_provider_extends"
+        android:title="ActionView"/>
+
+    <item
+        android:id="@+id/action_one"
+        actionbarcompat_mse:showAsAction="always"
+        android:icon="@drawable/ic_action_one"
+        android:orderInCategory="0"
+        android:title="One"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbarcompat_mse="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/ic_action_one"
+        android:orderInCategory="0"
+        actionbarcompat_mse:showAsAction="always"
+        android:title="One"/>
+    <item
+        android:id="@+id/action_two"
+        android:icon="@drawable/ic_action_two"
+        android:orderInCategory="1"
+        actionbarcompat_mse:showAsAction="always"
+        android:title="Two"/>
+      <item
+        android:id="@+id/action_one_duplicate"
+        android:icon="@drawable/ic_action_one"
+        android:orderInCategory="0"
+        actionbarcompat_mse:showAsAction="always"
+        android:title="One2"/>
+    <item
+        android:id="@+id/action_two_duplicate"
+        android:icon="@drawable/ic_action_two"
+        android:orderInCategory="0"
+        actionbarcompat_mse:showAsAction="ifRoom"
+        android:title="Two2"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        actionbarcompat_mse:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android2ee.formation.lollipop.toolbar.sample.CustomNavigationActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        android:minHeight="?attr/actionBarSize">
+
+      <RadioGroup
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          >
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/rdbNav1"
+              android:text="@string/str_custom_nav1"/>
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/rdbNav2"
+              android:text="@string/str_custom_nav2"/>
+      </RadioGroup>
+    </android.support.v7.widget.Toolbar>
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <style name="AppBlankTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/accent</item>
+    </style>
+    <!--Both themes below are those accepted to make the ToolBar works-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBlankTheme">
+        <!-- Customize your theme here. -->
+        <!-- Base application theme. -->
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+        <item name="spinnerDropDownItemStyle">@style/mydropdown</item>
+    </style>
+    <style name="MyAppTheme" parent="Theme.AppCompat.NoActionBar"/>
+<!--The Theme for the Actvity that have actionMode-->
+    <style name="ActionModeAppTheme" parent="AppTheme">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/primary_dark</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+
+    <!--Changing the color of the background-->
+    <style name="mydropdown" parent="@style/Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

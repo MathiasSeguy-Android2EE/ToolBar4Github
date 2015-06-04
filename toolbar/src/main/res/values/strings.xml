@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ToolBar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity_with_items">ActivityWithItems</string>
+    <string name="title_activity_actionmode">ActionMode</string>
+    <string name="title_activity_action_providers">ActionProvidersActivity</string>
+    <string name="title_activity_action_view">ActionViewActivity</string>
+    <string name="title_activity_native_search">NativeSearchActivity</string>
+    <string name="searchLabel">searchLabel</string>
+    <string name="search_hint">search_hint</string>
+    <string name="title_activity_nav_list">NavListActivity</string>
+    <string name="title_activity_custom_navigation">CustomNavigationActivity</string>
+    <string name="str_custom_nav1">Navi 1</string>
+    <string name="str_custom_nav2">Navi 2</string>
+</resources>

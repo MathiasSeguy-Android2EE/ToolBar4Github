@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToolBarWithTabsNav</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnChangeTabMode">Change TabMode</string>
+    <string name="btnChangeGravity">Change gravity</string>
+    <string name="btnAddTab">Add Tab</string>
+
+    <string name="txvStateGravityFill">Gravity=Fill and</string>
+    <string name="txvStateGravityCenter">Gravity=Center and</string>
+    <string name="txvStateModeFixed">Mode=Fixed</string>
+    <string name="txvStateModeScrollable">Mode=Scrollable</string>
+    <string name="title_activity_activity_tabs_nav_view_pager">ActivityTabsNavViewPager</string>
+</resources>

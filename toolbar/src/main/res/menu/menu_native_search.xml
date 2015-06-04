@@ -1,0 +1,21 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:actionbarcompat_mse="http://schemas.android.com/apk/res-auto"  xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.android2ee.formation.lollipop.toolbar.sample.NativeSearchActivity">
+
+        <item
+            android:id="@+id/menu_item_search"
+            actionbarcompat_mse:actionLayout="@layout/actionview_search"
+            actionbarcompat_mse:showAsAction="always|collapseActionView"
+            android:icon="@drawable/ic_action_provider_extends"
+            android:title="ActionView"/>
+
+        <item
+            android:id="@+id/action_one"
+            actionbarcompat_mse:showAsAction="always"
+            android:icon="@drawable/ic_action_one"
+            android:orderInCategory="0"
+            android:title="One"/>
+
+    </menu>
+

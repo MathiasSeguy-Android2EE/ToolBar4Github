@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionbarcompat_mse="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_item_action_provider_action_bar"
+        actionbarcompat_mse:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_provider_extends"
+        android:title="Airplane"
+        actionbarcompat_mse:actionProviderClass="com.android2ee.formation.lollipop.toolbar.sample.ActionProvidersActivity$AirPlaneActionProvider"/>
+    <item
+        android:id="@+id/menu_item_action_provider_overflow"
+        actionbarcompat_mse:showAsAction="never"
+        android:title="Airplane"
+        actionbarcompat_mse:actionProviderClass="com.android2ee.formation.lollipop.toolbar.sample.ActionProvidersActivity$AirPlaneActionProvider"/>
+    
+</menu>

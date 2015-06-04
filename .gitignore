@@ -15,7 +15,15 @@ gen/
 # Gradle files
 .gradle/
 build/
+<<<<<<< HEAD
 /*/build/
+=======
+
+# idea file
+.idea/
+*.imlgit commit 
+
+>>>>>>> The commit with all the projects
 
 # Local configuration file (sdk path, etc)
 local.properties

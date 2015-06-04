@@ -1,0 +1,28 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+// use the ext object to add any properties to the project
+project.ext {
+    compileSdkVersion = 22
+    targetSDK = 22
+    buildToolsVersion = "21.1.2"
+    supportLibraryVersion= 'com.android.support:appcompat-v7:22.2.0'
+
+    googlePlayServicesVersion= 'com.google.android.gms:play-services:7.3.0'
+    gpsAuthentification = 'com.google.android.gms:play-services-plus:7.3.0'
+}
+allprojects {
+    repositories {
+        jcenter()
+    }
+}

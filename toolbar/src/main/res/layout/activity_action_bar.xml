@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <include layout="@layout/my_toolbar_large"/>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/changeTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="changeTitle"
+                android:text="changeTitle" />
+
+            <Button
+                android:id="@+id/changeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="changeIcon"
+                android:text="changeIcon" />
+
+            <Button
+                android:id="@+id/HideText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="hideText"
+                android:text="hideText" />
+            <Button
+                android:id="@+id/hideIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="hideIcon"
+                android:text="hideIcon" />
+
+            <Button
+                android:id="@+id/changeBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="changeBackground"
+                android:text="changeBackground" />
+
+            <Button
+                android:id="@+id/setHomeEnable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="setHomeEnable"
+                android:text="setHomeEnable" />
+
+            <Button
+                android:id="@+id/setUpEnable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="setUpEnable"
+                android:text="setUpEnable" />
+            <Button
+                android:id="@+id/hideOverFlowMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="hideOverFlowMenu"
+                android:text="HideOverFlowMenu" />
+            
+            <Button
+                android:id="@+id/change_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:onClick="changeActivty"
+                android:text="Change Activity" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

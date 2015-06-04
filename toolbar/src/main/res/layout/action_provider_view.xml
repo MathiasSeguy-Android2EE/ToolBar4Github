@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:focusable="true" >
+
+    <ImageButton
+        android:id="@+id/button_action_provider_extend"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_action_provider_extends"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@+id/lil_other_action"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" 
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/button_action_provider1"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_action_one"
+            android:scaleType="fitCenter" />
+        <ImageButton
+            android:id="@+id/button_action_provider2"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_action_two"
+            android:scaleType="fitCenter" />
+         <ImageButton
+            android:id="@+id/button_action_provider3"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_action_setting"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+</LinearLayout>
